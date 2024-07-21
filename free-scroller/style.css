@@ -1,0 +1,31 @@
+html, body{
+    height: 100vh;
+}
+
+*{
+margin: 0!important;
+padding: 0!important;
+font-size: 0;
+box-sizing: border-box!important;
+}
+
+div{
+display: inline-block;
+}
+.section-1{
+    background-color: burlywood;
+    height: 100%;
+    width: calc(100vw * 0.3);
+}
+.section-2{
+    background-color: cadetblue;
+    height: 100%;
+    width: calc((100vw * 0.7) - 28px);
+}
+
+.devider{
+    background-color: black;
+    height: 100%;
+    width: 3px;
+    cursor: col-resize;
+}
